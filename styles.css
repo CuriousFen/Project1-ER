@@ -1,0 +1,25 @@
+
+/*Genearl background color of all pages*/
+.page-background-color{
+    background-color: #f3efe8;
+}
+
+/*Header bar at top of all pages*/
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #8bbba0;
+    color: white;  /* text color*/
+    font-size: 30px;
+}
+
+/*Footer bar at bottom of all pages*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #866858;
+    color: white; /* text color*/
+     text-align: center;
+}
