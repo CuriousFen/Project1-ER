@@ -30,6 +30,20 @@
     text-align: center;
 }
 
+/*---------------------------------
+    index.html exclusive styling
+-----------------------------------
+*/
+
+
+
+
+
+/*---------------------------------------------
+    catcafe-expalantion.html exclusive styling
+-----------------------------------------------
+*/
+/*Change the font style*/
 .cafe-main figure {
     text-align: center;
     margin: 24px 0;
@@ -46,25 +60,10 @@
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-/*---------------------------------
-    index.html exclusive styling
------------------------------------
-*/
-
-
-
-
-
-/*---------------------------------------------
-    catcafe-expalantion.html exclusive styling
------------------------------------------------
-*/
-
 /*Designing the font and display style for the navigation menu*/
 .nav {
     text-align: center;
     padding: 10px;
-    bottom: 0;
 }
 
 .nav a {
@@ -111,6 +110,28 @@
     display: inline-block;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Add footprints to the title, center it and add a border.*/
+.cafe-main h2 {
+  text-align: center;
+  color: #5a8f6f;
+  border: 3px dashed #d4b89e;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Georgia", serif;
+  background-color: #fdf8f3;
+  position: relative;
+}
+
+.cafe-main h2::before,
+.cafe-main h2::after {
+  content: "🐾";
+  font-size: 22px;
+  position: relative;
+  top: -2px;
+  margin: 0 8px;
 }
 
 /*---------------------------------
