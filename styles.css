@@ -1,5 +1,10 @@
 
-/*Genearl background color of all pages*/
+/*---------------------------------
+            Shared styling
+-----------------------------------
+*/
+
+/*General background color of all pages*/
 .page-background-color{
     background-color: #f3efe8;
 }
@@ -23,3 +28,45 @@
     color: white; /* text color*/
      text-align: center;
 }
+
+
+
+
+/*---------------------------------
+    index.html exclusive styling
+-----------------------------------
+*/
+
+
+
+
+
+/*---------------------------------------------
+    catcafe-expalantion.html exclusive styling
+-----------------------------------------------
+*/
+
+
+
+
+
+/*---------------------------------
+    cats.html exclusive styling
+-----------------------------------
+*/
+
+
+
+
+
+/*---------------------------------
+    support.html exclusive styling
+-----------------------------------
+*/
+
+
+
+
+
+
+
