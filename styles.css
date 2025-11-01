@@ -135,7 +135,7 @@
 }
 
 /*Add an emoji after the title*/
-.header h1::after {
+.header-SL h1::after {
     content: " 🐱";
     font-size: 1.2em;
     position: relative;
@@ -143,7 +143,7 @@
 }
 
 /*Change the font style in the header*/
-.header h1 {
+.header-SL h1 {
     font-family: "Georgia", "Times New Roman", serif;
     font-weight: bold;
     color: #fffaf4;
@@ -153,7 +153,7 @@
     margin-bottom: 10px;
 }
 
-.header p {
+.header-SL p {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.25em;
     font-style: italic;
@@ -164,7 +164,7 @@
 }
 
 /*Add round table legs to the header section to make the green color less conspicuous.*/
-.header {
+.header-SL {
     padding: 60px;
     text-align: center;
     background: linear-gradient(to bottom, #8bbba0, #a3c7b1);
@@ -176,6 +176,23 @@
     width: 90%;
 }
 
+/* Learn More section link */
+/*Add a button that enlarges when hovered over simultaneously*/
+.learn-more-link {
+  display: inline-block;
+  background-color: #8bbba0;
+  color: #fffaf4;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.learn-more-link:hover {
+  background-color: #a3c7b1;
+  transform: scale(1.05);
+}
 /*---------------------------------
     cats.html exclusive styling
 -----------------------------------
