@@ -134,6 +134,14 @@
   margin: 0 8px;
 }
 
+/*Add an emoji after the title*/
+.header h1::after {
+  content: " 🐱";
+  font-size: 1.2em;
+  position: relative;
+  top: 2px;
+}
+
 /*---------------------------------
     cats.html exclusive styling
 -----------------------------------
