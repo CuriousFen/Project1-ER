@@ -114,32 +114,50 @@
 
 /*Add footprints to the title, center it and add a border.*/
 .cafe-main h2 {
-  text-align: center;
-  color: #5a8f6f;
-  border: 3px dashed #d4b89e;
-  border-radius: 12px;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-family: "Georgia", serif;
-  background-color: #fdf8f3;
-  position: relative;
+    text-align: center;
+    color: #5a8f6f;
+    border: 3px dashed #d4b89e;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Georgia", serif;
+    background-color: #fdf8f3;
+    position: relative;
 }
 
 .cafe-main h2::before,
 .cafe-main h2::after {
-  content: "🐾";
-  font-size: 22px;
-  position: relative;
-  top: -2px;
-  margin: 0 8px;
+    content: "🐾";
+    font-size: 22px;
+    position: relative;
+    top: -2px;
+    margin: 0 8px;
 }
 
 /*Add an emoji after the title*/
 .header h1::after {
-  content: " 🐱";
-  font-size: 1.2em;
-  position: relative;
-  top: 2px;
+    content: " 🐱";
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+/*Change the font style in the header*/
+.header h1 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-weight: bold;
+    color: #fffaf4;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header p {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.2em;
+    color: #fffaf4;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 /*---------------------------------
