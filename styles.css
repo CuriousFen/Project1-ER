@@ -1,6 +1,5 @@
-
 /*Genearl background color of all pages*/
-.page-background-color{
+.page-background-color {
     background-color: #f3efe8;
 }
 
@@ -9,7 +8,8 @@
     padding: 60px;
     text-align: center;
     background: #8bbba0;
-    color: white;  /* text color*/
+    color: white;
+    /* text color*/
     font-size: 30px;
 }
 
@@ -20,8 +20,9 @@
     bottom: 0;
     width: 100%;
     background-color: #866858;
-    color: white; /* text color*/
-     text-align: center;
+    color: white;
+    /* text color*/
+    text-align: center;
 }
 
 /*Designing the font and display style for the navigation menu*/
@@ -32,9 +33,21 @@
 }
 
 .nav a {
-  color: #333;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 14px;
-  text-decoration: underline;
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.cafe-main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: #ffffffc5;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    line-height: 1.7;
+    font-size: 18px;
+    color: #4a4a4a;
 }
