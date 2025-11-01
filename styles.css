@@ -23,3 +23,91 @@
     color: white; /* text color*/
      text-align: center;
 }
+
+.cat-image {
+    display: block;
+    margin: 40px auto;
+    width: 420px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.cat-image:hover {
+    transform: scale(1.08);
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.35);
+}
+
+a:hover {
+    color: #5a7d70;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer:hover {
+    background: linear-gradient(90deg, #866858, #9b7a6a);
+    transition: background 0.5s ease-in-out;
+}
+
+.thank-text {
+    font-size: 18px;
+    font-style: italic;
+    color: #6b5f5a;
+    margin-top: 35px;
+    background-color: #f8f6f0;
+    padding: 18px 28px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.thank-text:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    background-color: #f9f7f2;
+}
+
+body {
+    opacity: 0;
+    animation: fadeInPage 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cat-image {
+    display: block;
+    margin: 40px auto;
+    width: 420px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: catFadeIn 1.4s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes catFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.cat-image:hover {
+    transform: scale(1.08);
+    box-shadow: 0 14px 24px rgba(0,0,0,0.35);
+}
