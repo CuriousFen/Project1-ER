@@ -37,6 +37,25 @@
 -----------------------------------
 */
 
+.hp-banner-container {
+    position: relative;     /* makes this container a positioning reference it's contents/children */
+    overflow: clip;         /* prevents contents from visually spilling out */
+}
+
+.hp-banner-container > img {
+    width: 100%;        /* stretches image to full width of parent container */
+    height: auto;       /* height auto adjusts to keep height/width ratio */
+    display: block;     /* removes bottom gap*/
+}
+
+.hp-banner-text {
+    position: absolute;
+    top: 50%;           /* distance from top side of container*/
+    left: 20%;          /* distance from left side of container */
+    width: 20%;         /* limits width of text, wraps it */
+    color: black;
+    font-size: 15px;
+}
 
 
 
