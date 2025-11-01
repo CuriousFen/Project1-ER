@@ -76,11 +76,12 @@
     text-decoration: underline;
 }
 
+/*Add styles to the paragraph font*/
 .cafe-main {
   max-width: 800px;
   margin: 40px auto;
   padding: 20px 30px;
-  background-color: #ffffffc5;  /* 柔和半透明白底 */
+  background-color: #ffffffc5;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   line-height: 1.7;
@@ -88,6 +89,7 @@
   color: #4a4a4a;
 }
 
+/*Change the style of the picture*/
 .cafe-images {
   display: flex;
   justify-content: center;
@@ -97,6 +99,7 @@
   text-align: center;
 }
 
+/*Add a border while changing the font style*/
 .cafe-images figcaption {
   width: 100%;
   margin-top: 16px;
