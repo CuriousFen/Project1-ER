@@ -193,6 +193,24 @@
   background-color: #a3c7b1;
   transform: scale(1.05);
 }
+
+.footer-SL{
+  background-color: #866858;
+  color: #fffaf4;
+  text-align: center;
+  padding: 20px 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.15);
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1em;
+  margin-top: 40px;
+}
+
+.footer-SL p {
+  margin: 0;
+  letter-spacing: 1px;
+}
 /*---------------------------------
     cats.html exclusive styling
 -----------------------------------
