@@ -1,5 +1,11 @@
-/*Genearl background color of all pages*/
-.page-background-color {
+
+/*---------------------------------
+            Shared styling
+-----------------------------------
+*/
+
+/*General background color of all pages*/
+.page-background-color{
     background-color: #f3efe8;
 }
 
@@ -25,6 +31,21 @@
     text-align: center;
 }
 
+
+/*---------------------------------
+    index.html exclusive styling
+-----------------------------------
+*/
+
+
+
+
+
+/*---------------------------------------------
+    catcafe-expalantion.html exclusive styling
+-----------------------------------------------
+*/
+
 /*Designing the font and display style for the navigation menu*/
 .nav {
     text-align: center;
@@ -41,13 +62,41 @@
 }
 
 .cafe-main {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px 30px;
-    background-color: #ffffffc5;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    line-height: 1.7;
-    font-size: 18px;
-    color: #4a4a4a;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: #ffffffc5;  /* 柔和半透明白底 */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  line-height: 1.7;
+  font-size: 18px;
+  color: #4a4a4a;
 }
+
+
+
+
+
+
+
+/*---------------------------------
+    cats.html exclusive styling
+-----------------------------------
+*/
+
+
+
+
+
+/*---------------------------------
+    support.html exclusive styling
+-----------------------------------
+*/
+
+
+
+
+
+
+
+
