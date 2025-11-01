@@ -30,6 +30,18 @@
     text-align: center;
 }
 
+/*Add round table legs to the header section to make the green color less conspicuous.*/
+.header {
+    padding: 60px;
+    text-align: center;
+    background: linear-gradient(to bottom, #8bbba0, #a3c7b1);
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    width: 90%;
+}
 /*---------------------------------
     index.html exclusive styling
 -----------------------------------
@@ -147,16 +159,19 @@
     font-family: "Georgia", "Times New Roman", serif;
     font-weight: bold;
     color: #fffaf4;
-    letter-spacing: 1px;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1.5px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2.1em;
+    margin-bottom: 10px;
 }
 
 .header p {
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 1.2em;
-    color: #fffaf4;
-    margin-top: 10px;
-    letter-spacing: 1px;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #fff9ef;
+    margin-top: 12px;
+    letter-spacing: 1.2px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
