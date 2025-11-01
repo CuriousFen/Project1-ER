@@ -23,3 +23,18 @@
     color: white; /* text color*/
      text-align: center;
 }
+
+/*Designing the font and display style for the navigation menu*/
+.nav {
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
+
+.nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+  text-decoration: underline;
+}
