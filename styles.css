@@ -9,25 +9,32 @@
 }
 
 /*Header bar at top of all pages*/
+/*Add round table legs to the header section to make the green color less conspicuous.*/
 .header {
     padding: 60px;
     text-align: center;
-    background: #8bbba0;
+    background: linear-gradient(to bottom, #8bbba0, #a3c7b1);
     color: white;
-    /* text color*/
     font-size: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    width: 90%;
 }
 
 /*Footer bar at bottom of all pages*/
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #866858;
-    color: white;
-    /* text color*/
-    text-align: center;
+/*Change the style of the footer to make it more rounded.*/
+.footer{
+  background-color: #866858;
+  color: #fffaf4;
+  text-align: center;
+  padding: 20px 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.15);
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1em;
+  margin-top: 40px;
 }
 
 /*---------------------------------
@@ -135,7 +142,7 @@
 }
 
 /*Add an emoji after the title*/
-.header-SL h1::after {
+.header h1::after {
     content: " 🐱";
     font-size: 1.2em;
     position: relative;
@@ -143,7 +150,7 @@
 }
 
 /*Change the font style in the header*/
-.header-SL h1 {
+.header h1 {
     font-family: "Georgia", "Times New Roman", serif;
     font-weight: bold;
     color: #fffaf4;
@@ -153,7 +160,7 @@
     margin-bottom: 10px;
 }
 
-.header-SL p {
+.header p {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.25em;
     font-style: italic;
@@ -161,19 +168,6 @@
     margin-top: 12px;
     letter-spacing: 1.2px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-}
-
-/*Add round table legs to the header section to make the green color less conspicuous.*/
-.header-SL {
-    padding: 60px;
-    text-align: center;
-    background: linear-gradient(to bottom, #8bbba0, #a3c7b1);
-    color: white;
-    font-size: 30px;
-    border-radius: 30px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    margin: 20px auto;
-    width: 90%;
 }
 
 /* Learn More section link */
@@ -194,20 +188,7 @@
   transform: scale(1.05);
 }
 
-.footer-SL{
-  background-color: #866858;
-  color: #fffaf4;
-  text-align: center;
-  padding: 20px 10px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.15);
-  font-family: "Georgia", "Times New Roman", serif;
-  font-size: 1em;
-  margin-top: 40px;
-}
-
-.footer-SL p {
+.footer p {
   margin: 0;
   letter-spacing: 1px;
 }
