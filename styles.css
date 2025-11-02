@@ -192,3 +192,19 @@ body {
     transform: translateY(-4px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.2);
 }
+
+.section-subtitle {
+  display: block;
+  width: fit-content; 
+  margin: 25px auto 20px;
+  background-color: #fff6e9;
+  color: #9b6a3c;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border: 2px solid #f1d2a9;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, background-color 0.35s ease;
+}
