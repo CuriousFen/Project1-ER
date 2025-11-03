@@ -9,7 +9,6 @@
 }
 
 /*Header bar at top of all pages*/
-/*Add round table legs to the header section to make the green color less conspicuous.*/
 .header {
     padding: 60px;
     text-align: center;
@@ -23,7 +22,6 @@
 }
 
 /*Footer bar at bottom of all pages*/
-/*Change the style of the footer to make it more rounded.*/
 .footer{
   background-color: #866858;
   color: #fffaf4;
@@ -35,6 +33,11 @@
   font-family: "Georgia", "Times New Roman", serif;
   font-size: 1em;
   margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+  letter-spacing: 1px;
 }
 
 /*---------------------------------
@@ -232,10 +235,7 @@
   transform: scale(1.05);
 }
 
-.footer p {
-  margin: 0;
-  letter-spacing: 1px;
-}
+
 /*---------------------------------
     cats.html exclusive styling
 -----------------------------------
