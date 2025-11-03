@@ -42,17 +42,20 @@
 -----------------------------------
 */
 
+/* container for the banner on the homepage */
 .hp-banner-container {
     position: relative;     /* makes this container a positioning reference it's contents/children */
     overflow: clip;         /* prevents contents from visually spilling out */
 }
 
+/* styling for images contained in banner container*/
 .hp-banner-container > img {
     width: 100%;        /* stretches image to full width of parent container */
     height: auto;       /* height auto adjusts to keep height/width ratio */
     display: block;     /* removes bottom gap*/
 }
 
+/* styling for homepage banner text*/
 .hp-banner-text {
     position: absolute;
     top: 50%;           /* distance from top side of container*/
@@ -215,6 +218,26 @@
     cats.html exclusive styling
 -----------------------------------
 */
+
+/* Container for images */
+.catpage-images {
+    display: flex;              /* organize children in row*/
+    flex-wrap: wrap;            /* items will wrap onto new lines*/
+    justify-content: center;    /* center items horizontally*/
+    align-items: flex-start;    /* align items to top*/
+    gap: 40px;                  /* space between images*/
+    margin: 24px 0;             /* vertical spacing above & below block*/
+    text-align: center;         /* centers any inline text inside*/
+}
+
+/* image styling for inside container*/
+.catpage-images img {
+    width: 300px;         /* width of images*/
+    max-width: 100%;      /* allows image to shrink more nicely*/
+    height: auto;         /* height auto adjusts to keep height/width ratio */
+    display: block;       /* removes bottom gap*/
+    border-radius: 8px;   /* determines how rounded the images corners are*/
+}
 
 
 
