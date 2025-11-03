@@ -9,7 +9,6 @@
 }
 
 /*Header bar at top of all pages*/
-/*Add round table legs to the header section to make the green color less conspicuous.*/
 .header {
     padding: 60px;
     text-align: center;
@@ -22,8 +21,51 @@
     width: 90%;
 }
 
+/*Add an emoji after the title*/
+.header h1::after {
+    content: " 🐱";
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+/*Change the font style in the header*/
+.header h1 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-weight: bold;
+    color: #fffaf4;
+    letter-spacing: 1.5px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #fff9ef;
+    margin-top: 12px;
+    letter-spacing: 1.2px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*Designing the font and display style for the navigation menu*/
+.nav {
+    text-align: center;
+    padding: 10px;
+}
+
+/* navigation menu links*/
+.nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
 /*Footer bar at bottom of all pages*/
-/*Change the style of the footer to make it more rounded.*/
 .footer{
   background-color: #866858;
   color: #fffaf4;
@@ -37,10 +79,60 @@
   margin-top: 40px;
 }
 
+.footer p {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+
+
+
+
 /*---------------------------------
     index.html exclusive styling
 -----------------------------------
 */
+
+/* container for the banner on the homepage */
+.hp-banner-container {
+    background: url("images/homepage banner placeholder.png") center / cover no-repeat;
+
+    display: flex;                  /* places container children in row*/
+    flex-wrap: wrap;                /* allows items to wrap around if needed */
+    align-items: center;            /* vertically centers items in row */
+    justify-content: space-between;
+    gap: 24px;                      /* space between text and image blocks */
+    padding: 24px 10%;
+    min-height: 380px;              /* minimum height allowed for banner */
+    border-radius: 12px;            /* rounds corners of box */
+}
+
+/* overlays text on top of banner*/
+.hp-banner-text {
+    flex: 1 1 420px;                /* flex to help with size changes */
+    max-width: 46ch;           
+    font-family: "Georgia", serif;
+    color: black;
+    font-size: 20px;
+    line-height: 1.4;               /* ensures a bit of room between lines during size changes */
+}
+
+/* overlays image to right of banner text*/
+.hp-banner-image {
+    flex: 0 1 420px;                /* flex to help with size changes */
+    display: flex;                  /* flex to center image */
+    justify-content: center;        /* centers image in the block */
+}
+
+/* styling for pawffe shop image */
+.hp-banner-image img {
+    width: 400px;               /* width of images*/
+    max-width: 100%;            /* allows image to shrink more nicely*/
+    height: auto;               /* height auto adjusts to keep height/width ratio */
+    display: block;             /* removes bottom gap*/
+    border-radius: 8px;         /* determines how rounded the images corners are*/
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
 
 
 
@@ -65,20 +157,6 @@
 .cafe-main img:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-}
-
-/*Designing the font and display style for the navigation menu*/
-.nav {
-    text-align: center;
-    padding: 10px;
-}
-
-.nav a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 14px;
-    text-decoration: underline;
 }
 
 /*Add styles to the paragraph font*/
@@ -141,34 +219,7 @@
     margin: 0 8px;
 }
 
-/*Add an emoji after the title*/
-.header h1::after {
-    content: " 🐱";
-    font-size: 1.2em;
-    position: relative;
-    top: 2px;
-}
 
-/*Change the font style in the header*/
-.header h1 {
-    font-family: "Georgia", "Times New Roman", serif;
-    font-weight: bold;
-    color: #fffaf4;
-    letter-spacing: 1.5px;
-    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
-    font-size: 2.1em;
-    margin-bottom: 10px;
-}
-
-.header p {
-    font-family: "Georgia", "Times New Roman", serif;
-    font-size: 1.25em;
-    font-style: italic;
-    color: #fff9ef;
-    margin-top: 12px;
-    letter-spacing: 1.2px;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-}
 
 /* Learn More section link */
 /*Add a button that enlarges when hovered over simultaneously*/
@@ -188,14 +239,32 @@
   transform: scale(1.05);
 }
 
-.footer p {
-  margin: 0;
-  letter-spacing: 1px;
-}
+
+
 /*---------------------------------
     cats.html exclusive styling
 -----------------------------------
 */
+
+/* Container for images */
+.catpage-images {
+    display: flex;              /* organize children in row*/
+    flex-wrap: wrap;            /* items will wrap onto new lines*/
+    justify-content: center;    /* center items horizontally*/
+    align-items: flex-start;    /* align items to top*/
+    gap: 40px;                  /* space between images*/
+    margin: 24px 0;             /* vertical spacing above & below block*/
+    text-align: center;         /* centers any inline text inside*/
+}
+
+/* image styling for inside container*/
+.catpage-images img {
+    width: 300px;         /* width of images*/
+    max-width: 100%;      /* allows image to shrink more nicely*/
+    height: auto;         /* height auto adjusts to keep height/width ratio */
+    display: block;       /* removes bottom gap*/
+    border-radius: 8px;   /* determines how rounded the images corners are*/
+}
 
 
 
