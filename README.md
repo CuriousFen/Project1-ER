@@ -1,7 +1,7 @@
 Project 1 – Do Good Well
 
 Team Members
-- Song Lin
+- Songlin Liu
 - Zhihan Ma
 - Erin Rowe
 
