@@ -16,7 +16,10 @@ No major issues, but some image alignment needed manual adjustment when resizing
 
 ---- Zhihan Ma ----
 Reflection:
-Bugs:
+My teammates and I worked together to create a website for Pawffee Shop, a cat café that promotes cat adoption and animal care. The process was both exciting and challenging, allowing me to apply what I’ve learned in class while gaining new experience through real teamwork.
+During development, I was mainly responsible for the Support Page design and styling. The biggest challenge for me was learning how to create my own branch on GitHub and make updates without affecting the team’s main code. At first, I wasn’t familiar with Git commands and often got confused by merge conflicts and version syncing issues. However, with my teammates’ guidance and support, I gradually learned how to use Git properly, merge branches safely, and work collaboratively in a shared environment.
+This project helped me understand the true importance of teamwork. Every discussion, edit, and small fix we worked on together made the final result better. My teammates’ patience and encouragement gave me confidence and motivation to keep improving my technical skills and become a more responsible and cooperative developer in the future.
+Bugs: No major issues
 
 
 ---- Erin Rowe ----
