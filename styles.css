@@ -21,6 +21,49 @@
     width: 90%;
 }
 
+/*Add an emoji after the title*/
+.header h1::after {
+    content: " 🐱";
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+/*Change the font style in the header*/
+.header h1 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-weight: bold;
+    color: #fffaf4;
+    letter-spacing: 1.5px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #fff9ef;
+    margin-top: 12px;
+    letter-spacing: 1.2px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*Designing the font and display style for the navigation menu*/
+.nav {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
 /*Footer bar at bottom of all pages*/
 .footer{
   background-color: #866858;
@@ -39,6 +82,10 @@
   margin: 0;
   letter-spacing: 1px;
 }
+
+
+
+
 
 /*---------------------------------
     index.html exclusive styling
@@ -93,6 +140,7 @@
 
 
 
+
 /*---------------------------------------------
     catcafe-expalantion.html exclusive styling
 -----------------------------------------------
@@ -112,20 +160,6 @@
 .cafe-main img:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-}
-
-/*Designing the font and display style for the navigation menu*/
-.nav {
-    text-align: center;
-    padding: 10px;
-}
-
-.nav a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 14px;
-    text-decoration: underline;
 }
 
 /*Add styles to the paragraph font*/
@@ -188,34 +222,7 @@
     margin: 0 8px;
 }
 
-/*Add an emoji after the title*/
-.header h1::after {
-    content: " 🐱";
-    font-size: 1.2em;
-    position: relative;
-    top: 2px;
-}
 
-/*Change the font style in the header*/
-.header h1 {
-    font-family: "Georgia", "Times New Roman", serif;
-    font-weight: bold;
-    color: #fffaf4;
-    letter-spacing: 1.5px;
-    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
-    font-size: 2.1em;
-    margin-bottom: 10px;
-}
-
-.header p {
-    font-family: "Georgia", "Times New Roman", serif;
-    font-size: 1.25em;
-    font-style: italic;
-    color: #fff9ef;
-    margin-top: 12px;
-    letter-spacing: 1.2px;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-}
 
 /* Learn More section link */
 /*Add a button that enlarges when hovered over simultaneously*/
@@ -234,6 +241,7 @@
   background-color: #a3c7b1;
   transform: scale(1.05);
 }
+
 
 
 /*---------------------------------
