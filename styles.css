@@ -56,11 +56,12 @@
     padding: 10px;
 }
 
+/* navigation menu links*/
 .nav a {
     color: #333;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 14px;
+    font-size: 18px;
     text-decoration: underline;
 }
 
