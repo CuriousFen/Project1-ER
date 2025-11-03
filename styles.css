@@ -95,37 +95,33 @@
 
 /* container for the banner on the homepage */
 .hp-banner-container {
-    position: relative;     /* makes this container a positioning reference it's contents/children */
-    overflow: clip;         /* prevents contents from visually spilling out */
-}
+    background: url("images/homepage banner placeholder.png") center / cover no-repeat;
 
-/* styling for images contained in banner container*/
-.hp-banner-container > img {
-    width: 100%;        /* stretches image to full width of parent container */
-    height: auto;       /* height auto adjusts to keep height/width ratio */
-    display: block;     /* removes bottom gap*/
+    display: flex;                  /* places container children in row*/
+    flex-wrap: wrap;                /* allows items to wrap around if needed */
+    align-items: center;            /* vertically centers items in row */
+    justify-content: space-between;
+    gap: 24px;                      /* space between text and image blocks */
+    padding: 24px 10%;
+    min-height: 380px;              /* minimum height allowed for banner */
+    border-radius: 12px;            /* rounds corners of box */
 }
 
 /* overlays text on top of banner*/
 .hp-banner-text {
-    position: absolute;
-    top: 50%;                       /* distance from top side of container*/
-    left: 18%;                      /* distance from left side of container */
-    width: 30%;                     /* limits width of text, wraps it */
-    transform: translateY(-50%);    /* vertically center */
+    flex: 1 1 420px;                /* flex to help with size changes */
+    max-width: 46ch;           
     font-family: "Georgia", serif;
     color: black;
     font-size: 20px;
-    z-index: 2;
+    line-height: 1.4;               /* ensures a bit of room between lines during size changes */
 }
 
 /* overlays image to right of banner text*/
 .hp-banner-image {
-    position:absolute;
-    top: 50%;                       /* distance from top side of container*/
-    right: 15%;                     /* distance from right side of container */
-    transform: translateY(-50%);    /* vertically center */
-    z-index: 2;
+    flex: 0 1 420px;                /* flex to help with size changes */
+    display: flex;                  /* flex to center image */
+    justify-content: center;        /* centers image in the block */
 }
 
 /* styling for pawffe shop image */
